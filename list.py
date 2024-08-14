@@ -16,3 +16,13 @@ print(lista_numeros[0])
 print(lista_numeros[1])
 print(lista_numeros[2])
 
+# append
+
+lista_vazia = []
+
+lista_vazia.append("Olá")
+lista_vazia.append("Mundo")
+
+print(lista_vazia)
+
+
