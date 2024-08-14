@@ -20,14 +20,23 @@
 
 # operadores
 
-soma = 1 + 1
-multiplicacao = 4 * 4 
-divisao = 30 / 3
-potencia = 7 ** 2
+# soma = 1 + 1
+# multiplicacao = 4 * 4 
+# divisao = 30 / 3
+# potencia = 7 ** 2
 
-print("soma", soma)
-print("multiplicacao", multiplicacao)
-print("divisao", divisao)
-print("potencia", potencia)
+# print("soma", soma)
+# print("multiplicacao", multiplicacao)
+# print("divisao", divisao)
+# print("potencia", potencia)
 
 # condicionais
+
+idade = int( input("Informe a sua idade: ") )
+
+if idade >= 18:
+    print("PERMITIDO!")
+else:
+    print("NEGADO!")
+
+
